@@ -14,7 +14,7 @@ public class RandomStringChooser
     if (words.size() ==0){
       return "NONE";
     }
-    int i =(int)(Math.random()*words.size());
+    int i =(int)(Math.random() * words.size());
     return words.remove(i);
   }
 }
